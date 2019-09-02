@@ -1,3 +1,7 @@
 version: "2"
 domain: tutorial.kubebuilder.io
 repo: github.com/wlodekb/crd
+resources:
+- group: batch
+  version: v1
+  kind: CronJob
